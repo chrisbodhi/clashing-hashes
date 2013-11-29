@@ -2,6 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
 require 'sinatra/reloader'
+require_relative 'lib/twitter.rb'
 
 # Get request for the url
 get '/' do

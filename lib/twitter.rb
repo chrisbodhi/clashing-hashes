@@ -1,4 +1,3 @@
-<%
 module Twitter
   class Tweet
 
@@ -12,16 +11,6 @@ module Twitter
     end
   end
 end
-%>
 
-<link rel="stylesheet" href="application.css" type="text/css" />
-
-<h6>Your form has been submitted.</h6>
-
-<p> &amp; the winner is ...<%= params[:red] %>.</p>
-
-<p>Sorry, <%= params[:blue] %>. Better luck next time.</p>
-
-<% @tweet = Twitter::Tweet.new %>
-<% a = @tweet.display %>
-<p><%= a %></p>
+# a = Twitter::Tweet.new
+# puts a.display
