@@ -1,9 +1,17 @@
-<h6>My name is <%= @name %>.</h6>
+<link rel="stylesheet" href="application.css" type="text/css" />
 
-<p>This is unrandom text that's supposed to be random.</p>
 
-<p>Sorry that it's not.</p>
+<h3>Hashtag Hash Battle</h3>
 
+<h6>Competing hashtags. Who will win?</h6>
+
+<form action="/twitter" method="post">
+    <div>In the Red Corner<input type="text" name="red" /></div>
+    <div>In the Blue Corner<input type="text" name="blue" /></div>
+    <input type="submit" />
+</form>
+
+<!-- 
 <% if @show_description %>
   <p>This is my description.</p>
-<% end %>
+<% end %> -->
